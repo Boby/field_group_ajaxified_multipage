@@ -1,0 +1,19 @@
+{
+    "name": "drupal/field_group_ajaxified_multipage",
+    "type": "drupal-module",
+    "description": "Allow make fieldgroups to build multipage content creation forms.",
+    "homepage": "http://drupal.org/project/field_group_ajaxified_multipage",
+    "authors": [
+      {
+        "name": "Eduardo Morales Alberti",
+        "homepage": "https://www.drupal.org/u/Eduardo-Morales-Alberti",
+        "role": "Maintainer"
+      }
+    ],
+    "license": "GPL-2.0+",
+    "require": {
+        "drupal/field_group": "~3.0",
+        "drupal/core": "^8 || ^9 || ^10"
+    },
+    "minimum-stability": "dev"
+}
