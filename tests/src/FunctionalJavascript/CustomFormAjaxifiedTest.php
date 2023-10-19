@@ -55,7 +55,7 @@ class CustomFormAjaxifiedTest extends JavascriptTestBase {
   /**
    * {@inheritdoc}
    */
-  protected function setUp() {
+  protected function setUp(): void {
     parent::setUp();
     // Move this to a trait.
     $this->user = $this->drupalCreateUser([
